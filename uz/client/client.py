@@ -70,7 +70,7 @@ class UZClient(object):
             'User-Agent': self.user_agent,
             'GV-Ajax': '1',
             'GV-Referer': self.base_url,
-            'GV-Token': await self.get_token()
+#            'GV-Token': await self.get_token()
         }
 
     def uri(self, endpoint):
